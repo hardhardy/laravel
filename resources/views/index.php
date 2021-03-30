@@ -1,4 +1,4 @@
 <!DOCTYPE html>
 <html>
-<h1>Приветы!</h1>
+<h1>Привет!</h1>
 </html>
