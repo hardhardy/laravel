@@ -1,24 +1,52 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use \App\Http\Controllers\NewsController;
+use App\Http\Controllers\Admin\NewsController as AdminNewsController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
-Route::get('/info', function () {
-    return view('info');
+
+/**
+ * Новости
+ */
+Route::group([
+    'prefix' => 'news',
+    'as' => 'news::'
+], function() {
+
+    Route::get('/', [NewsController::class, 'index'])
+        ->name("categories");
+
+    Route::get('/card/{id}', [NewsController::class, 'card'])
+        ->where('id', '[0-9]+')
+        ->name('card');
+
+    Route::get('/{categoryId}', [NewsController::class, 'list'])
+        ->where('id', '[0-9]+')
+        ->name('list');
 });
-Route::get('/news', function () {
-    return view('news');
+
+
+
+/** Админка новостей */
+Route::group([
+    'prefix' => '/admin/news',
+    'as' => 'admin::news::',
+], function () {
+    Route::get('/', [AdminNewsController::class, 'index'] )
+        ->name('index');
+    Route::get('/create',[AdminNewsController::class, 'create'])
+        ->name('create');
+    Route::get('/update',[AdminNewsController::class, 'update'])
+        ->name('update');
+    Route::get('/delete',[AdminNewsController::class, 'delete'])
+        ->name('delete');
+});
+
+/** Админка */
+Route::get('/admin', function () {
+    return view('admin/index');
 });
