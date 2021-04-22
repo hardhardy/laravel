@@ -29,6 +29,9 @@ Route::group([
         ->name('list');
 });
 
+Route::get('/db', [\App\Http\Controllers\DbController::class, 'index']);
+
+
 
 
 /** Админка новостей */
@@ -48,6 +51,7 @@ Route::group([
     Route::get('/delete',[AdminNewsController::class, 'delete'])
         ->name('delete');
 });
+
 
 /** Админка */
 Route::get('/admin', function () {
