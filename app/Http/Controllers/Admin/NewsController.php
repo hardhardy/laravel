@@ -9,8 +9,7 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return view('news/create');
-        exit;
+        return response(view('admin.news.create'));
     }
 
     public function create(Request $request)
