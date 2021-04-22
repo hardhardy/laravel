@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4bfd9d-4370-4ede-8850-9bd7cc7c91ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/NewsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/NewsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -149,6 +149,7 @@
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\resources\views\admin\news" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\tests\Feature" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\resources\views\admin" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\app\Http\Controllers" />
@@ -169,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619085025786</updated>
       <workItem from="1619085026893" duration="4170000" />
-      <workItem from="1619090070943" duration="5048000" />
+      <workItem from="1619090070943" duration="5232000" />
     </task>
     <servers />
   </component>
