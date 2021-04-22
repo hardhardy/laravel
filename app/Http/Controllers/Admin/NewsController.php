@@ -13,11 +13,14 @@ class NewsController extends Controller
         exit;
     }
 
-    public function create()
+    public function create(Request $request)
     {
-        dd(route('admin::news::create'));
-        echo "create";
-        exit;
+        return response(view('admin.news.create'));
+    }
+
+    public function save()
+    {
+        return redirect()->route('admin::news::create');
     }
 
     public function update()
