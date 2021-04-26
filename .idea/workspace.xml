@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df4bfd9d-4370-4ede-8850-9bd7cc7c91ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f79ad14a-ea75-4b88-bc9a-30d3b3ee9f9b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f79ad14a-ea75-4b88-bc9a-30d3b3ee9f9b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/example-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/News_old.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/NewsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/NewsSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="df4bfd9d-4370-4ede-8850-9bd7cc7c91ac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +173,7 @@
       <updated>1619085025786</updated>
       <workItem from="1619085026893" duration="4170000" />
       <workItem from="1619090070943" duration="5232000" />
-      <workItem from="1619435304187" duration="7685000" />
+      <workItem from="1619435304187" duration="8054000" />
     </task>
     <servers />
   </component>
@@ -219,6 +205,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="950" height="252" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1619332322254" />
+    <state x="1125" y="543" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1619443328959">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1125" y="543" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1050@0.0.1920.1050" timestamp="1619443328959" />
     <state x="1402" y="402" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1619436276774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
