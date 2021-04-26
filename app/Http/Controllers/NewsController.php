@@ -5,32 +5,29 @@ namespace App\Http\Controllers;
 
 
 use App\Models\News;
-use Illuminate\Support\Facades\View;
 
 class NewsController extends Controller
 {
-    private $categories = [
-        1 => 'Здоровье',
-        2 => 'ИТ',
-        3 => 'Спорт'
-    ];
-
     public function index()
     {
+        //$result = News::all();
         return view('news.index', ['categories' => $this->categories]);
     }
 
-    public function list($categoryId)
+    public function list(News $news, $categoryId)
     {
-        $news = (new News())->getByCategoryId($categoryId);
-        return view('news.list', ['news' => $news]);
+        return view('news.list', ['news' => $news->getByCategoryId($categoryId)]);
     }
 
-    public function card($id)
+    public function card(News $news)
     {
-        $news = $this->news[$id];
-        echo $news['title'];
-        exit;
+        //dd($news);
+        return view('news.card', ['model' => $news]);
+        //$news = News::find($id);
+        //echo $news['title'];
+        //echo '<br>';
+        //echo $news['description'];
+        //exit;
     }
 
 }
