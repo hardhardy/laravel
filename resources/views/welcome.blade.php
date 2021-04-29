@@ -1,4 +1,4 @@
-php    @extends('layouts.main')
+@extends('layouts.main')
 
     @section('title')
         @parent

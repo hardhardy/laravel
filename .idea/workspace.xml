@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df4bfd9d-4370-4ede-8850-9bd7cc7c91ac" name="Default Changelist" comment="" />
+    <list default="true" id="df4bfd9d-4370-4ede-8850-9bd7cc7c91ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/AdminNewsSaveRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/news/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/example-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DbController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DbController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/news/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/news/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/news/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +146,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rWHf9Tr0QySX7SchZYr76W1ol2" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -141,17 +157,18 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\app\Http" />
+      <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\resources\views\admin\news" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\tests\Feature" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app" />
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\resources\views\admin" />
-      <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\app\Http\Controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\HardHardy\Desktop\o6y4eHue\PHP\homework\laravel\example-app\resources\views\admin\news" />
@@ -173,7 +190,9 @@
       <updated>1619085025786</updated>
       <workItem from="1619085026893" duration="4170000" />
       <workItem from="1619090070943" duration="5232000" />
-      <workItem from="1619435304187" duration="8054000" />
+      <workItem from="1619435304187" duration="8385000" />
+      <workItem from="1619700354767" duration="2063000" />
+      <workItem from="1619705147016" duration="2808000" />
     </task>
     <servers />
   </component>
@@ -185,10 +204,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="727" y="141" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1619331753843" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1619085031792">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1619705154071">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1619085031792" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1619705154071" />
     <state width="950" height="252" key="GridCell.Tab.0.bottom" timestamp="1619332322254">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

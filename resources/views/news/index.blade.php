@@ -8,7 +8,7 @@
 @section('content')
     @foreach($categories as $id => $name)
         @php
-            $url = route('news::list', ['categories' => $item->id])
+            $url = route('news::list', ['categoryId' => $id])
         @endphp
 
         <div>
@@ -16,6 +16,4 @@
         </div>
 
     @endforeach
-
-
 @endsection
