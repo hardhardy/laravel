@@ -1,0 +1,9 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.item-menu {
+    display: inline-block;
+    padding: 5px 10px 5px 0;
+}
+
